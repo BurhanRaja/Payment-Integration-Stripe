@@ -1,0 +1,28 @@
+{
+  "name": "payment-integration-stripe",
+  "version": "1.0.0",
+  "description": "This is a demo payment integration with nodejs app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BurhanRaja/Payment-Integration-Stripe.git"
+  },
+  "author": "Burhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BurhanRaja/Payment-Integration-Stripe/issues"
+  },
+  "homepage": "https://github.com/BurhanRaja/Payment-Integration-Stripe#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "stripe": "^10.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
