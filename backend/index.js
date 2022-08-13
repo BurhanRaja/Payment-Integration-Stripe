@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === 'development') {
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY)
 
 const app = express()
-const port = 3000
+const port = 5000
 
 // Middleware
 app.use(cors())
@@ -50,7 +50,7 @@ app.post('/payment', async (req, res) => {
         }, {idempotencyKey})
     }
 
-    return createCharge(customer)
+    return await createCharge(customer)
         .then(result => res.status(200).json(result))
         .catch(err => console.log(err))
 })
