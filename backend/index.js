@@ -53,8 +53,6 @@ app.post('/payment', async (req, res) => {
     return createCharge(customer)
         .then(result => res.status(200).json(result))
         .catch(err => console.log(err))
-
-
 })
 
 // Listen
