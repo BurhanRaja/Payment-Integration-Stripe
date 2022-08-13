@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/BurhanRaja/Payment-Integration-Stripe#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
-    "stripe": "^10.2.0"
+    "stripe": "^10.2.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "dotenv": "^16.0.1",

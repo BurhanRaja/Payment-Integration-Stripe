@@ -1,0 +1,36 @@
+{
+    "Fashion": [
+        {
+            "id": 1,
+            "itemName": "Adidas Cotton T-Shirt",
+            "price": 1200
+        },
+        {
+            "id": 2,
+            "itemName": "Levis Fader Jeans for Men",
+            "price": 2000
+        },
+        {
+            "id": 3,
+            "itemName": "Nike Air 4",
+            "price": 1200
+        }
+    ],
+    "Electronics" : [
+        {
+            "id": 4,
+            "itemName": "Legion 5 pro Gaming Laptop",
+            "price": 130000
+        },
+        {
+            "id": 5,
+            "itemName": "OnePlus 10 Pro",
+            "price": 60000
+        },
+        {
+            "id": 6,
+            "itemName": "Pegion Mixer with bowls",
+            "price": 10000
+        }
+    ]
+}
